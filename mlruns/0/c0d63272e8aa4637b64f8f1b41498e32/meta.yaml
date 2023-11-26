@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/c0d63272e8aa4637b64f8f1b41498e32/artifacts
+end_time: 1700969980325
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c0d63272e8aa4637b64f8f1b41498e32
+run_name: invincible-fawn-773
+run_uuid: c0d63272e8aa4637b64f8f1b41498e32
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700969979876
+status: 3
+tags: []
+user_id: yilinyang

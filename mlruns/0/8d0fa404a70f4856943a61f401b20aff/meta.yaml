@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/8d0fa404a70f4856943a61f401b20aff/artifacts
+end_time: 1700970006722
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d0fa404a70f4856943a61f401b20aff
+run_name: able-finch-791
+run_uuid: 8d0fa404a70f4856943a61f401b20aff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700970006352
+status: 3
+tags: []
+user_id: yilinyang
