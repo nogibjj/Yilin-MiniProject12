@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/f55cfb92a5504c11a7137188392a3571/artifacts
+end_time: 1701017158817
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f55cfb92a5504c11a7137188392a3571
+run_name: debonair-finch-762
+run_uuid: f55cfb92a5504c11a7137188392a3571
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701017158416
+status: 3
+tags: []
+user_id: yilinyang

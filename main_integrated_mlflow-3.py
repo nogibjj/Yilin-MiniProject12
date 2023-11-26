@@ -1,4 +1,5 @@
 import mlflow
+import time
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
 
 """
@@ -171,6 +172,9 @@ ETL-Query script
 
 mlflow.start_run()
 
+# Start the timer
+start_time = time.time()
+
 # Extract
 print("Extracting data...")
 extract()
@@ -188,12 +192,19 @@ print()
 query3()
 print()
 query4()
+
+# End the timer
+end_time = time.time()
+
+# Calculate the total execution time
+total_execution_time = end_time - start_time
+
 # Example MLflow tracking
 # Tracking the URL used in the extract function
 mlflow.log_param("data_url", "https://raw.githubusercontent.com/Barabasi-Lab/GroceryDB/main/data/GroceryDB_IgFPro.csv")
 
-# Tracking a metric, for example, a dummy metric
-mlflow.log_metric("dummy_metric", 1.0)
+# Tracking the total execution time of the ETL and query process
+mlflow.log_metric("total_execution_time", total_execution_time)
 
 # Logging an artifact, here the output file from the load function
 mlflow.log_artifact("data/GroceryDB_IgFPro.csv")
