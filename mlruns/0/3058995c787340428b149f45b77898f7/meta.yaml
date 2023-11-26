@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/3058995c787340428b149f45b77898f7/artifacts
+end_time: 1700966532083
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3058995c787340428b149f45b77898f7
+run_name: chill-fish-644
+run_uuid: 3058995c787340428b149f45b77898f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700966532078
+status: 4
+tags: []
+user_id: yilinyang

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/44bb6b7f9f774f99af0b180bef16ebbd/artifacts
+end_time: 1700966605488
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 44bb6b7f9f774f99af0b180bef16ebbd
+run_name: unequaled-asp-166
+run_uuid: 44bb6b7f9f774f99af0b180bef16ebbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700966604986
+status: 4
+tags: []
+user_id: yilinyang
